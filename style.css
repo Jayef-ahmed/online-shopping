@@ -1,0 +1,108 @@
+/* .imgs{
+    height: 90vh;
+} */
+/* nav{
+    margin:30px ;
+} */
+.coma{
+    color: red;
+}
+.navli:hover{
+    color: red;
+}
+hr{
+    border: 1px dashed gray;
+}
+.progress-bar{
+    width: 160px;
+    height: 160px;
+    position: relative;
+}
+.outer{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    padding: 20px;
+}
+.inner{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),inset -4px -4px 6px -1px rgba(255,255,255,0.7),-0.5px -0.5px 0px rgba(255,255,255,1),
+    0.5px 0.5px 0px rgba(0,0,0,0.15),
+    0px 12px 10px -10px rgba(0,0,0,0.05);
+}
+circle{
+    fill: none;
+    stroke: red;
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim 2s linear forwards;
+}
+svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.cir2{
+    stroke: rgb(3, 179, 3);
+    animation: anim2 2s linear forwards;
+}
+.cir3{
+    stroke: rgb(212, 212, 55);
+    animation: anim3 2s linear forwards;
+}
+.cir4{
+    stroke: rgb(0, 104, 216);
+}
+
+@keyframes anim {
+    100%{
+        stroke-dashoffset: 130;
+    }
+}
+@keyframes anim2 {
+    100%{
+        stroke-dashoffset: 70;
+    }
+}
+@keyframes anim3 {
+    100%{
+        stroke-dashoffset: 76;
+    }
+}
+
+.card-img{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)),url(./Images/2.png);
+    background-repeat: no-repeat;
+    padding:95px 40px;
+}
+  .card-img-1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)),url(./Images/3.png);
+    background-repeat: no-repeat;
+  }
+  .card-img-2{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4),
+    rgba(0, 0, -1, 0.4)), url(./Images/4.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 25px;
+}
+li{
+    list-style: none;
+}
+.text-color45
+{
+    color:#FF4240
+}
+footer{
+    background-color: #131318;
+    padding:100px 100px;
+}
